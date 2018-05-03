@@ -47,8 +47,8 @@ gulp.task('imagemin', function() {
 	上传静态文件到七牛云,并替换资源路径
  */
 var qiniuOptions = {
-  ak: 'BdMhDATEg-Vo930YQH0zjJ7Tswtw1oOePocHcoJeO',
-  sk: 'FDTlBgQOCA0fywdHzx1y5tZs-5gW500LvvooVJyHE',
+  ak: 'BdMhDATEgVo930YQH0zjJ7Tswtw1oOePocHcoJeO',
+  sk: 'FDTlBgQOCA0fywdHzx1y5tZs5gW500LvvooVJyHE',
   uploadDir: './build/img/', //本地需上传的目录
   bucket: 'item-redream', //七牛空间名
   prefix: 'test-gulp/', //上传时添加的前缀，可省略
